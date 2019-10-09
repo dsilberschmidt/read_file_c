@@ -5,7 +5,7 @@ char *argv[];
 {
     FILE *archivo;
     char caracter;
-    archivo = fopen ("texto.txt", "r");
+    archivo = fopen (argv[1], "r");
     caracter = 'a'; 
     while ( caracter != EOF)
     {
@@ -13,4 +13,5 @@ char *argv[];
         printf( "%c", caracter);
     }
     fclose(archivo);
+    return(0);
  }

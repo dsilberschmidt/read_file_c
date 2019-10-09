@@ -7,7 +7,7 @@ read_file.o: read_file.c
 	gcc -c  read_file.c 
 
 clean: 
-	rm   read_file.o
+	rm   read_file.o read_file
 
 
 
